@@ -1,3 +1,332 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+.main-div {
+  width: 110rem;
+  margin: 0 auto;
+}
+/* -----------------------------------------------
+section-main-header
+----------------------------------------------- */
+.header {
+  margin-bottom: 18rem;
+}
+.grey-wallpaper {
+  max-width: 54rem;
+}
+.hide-img {
+  display: none;
+}
+
+.main-header-text {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 9.6rem;
+  line-height: 8.8rem;
+  text-transform: uppercase;
+  color: #111111;
+  position: absolute;
+  top: 19rem;
+  left: 44.7rem;
+}
+
 .main-wallpapers {
+  position: relative;
+}
+.span-modern-text {
+  color: #151515;
+}
+.main-wallapaper-text {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  width: 35rem;
+}
+.main-location,
+.main-location-new {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  cursor: pointer;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  letter-spacing: 3.63636px;
+  text-transform: uppercase;
+  padding: 2.1rem;
+  background-color: #151515;
+  color: #fff;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.main-location:hover {
+  background-color: #d5966c;
+}
+
+.main-text-icon {
+  background: #111111;
+}
+.location-div,
+.main-location-div {
   display: flex;
+}
+
+.main-location-map-indicator {
+  position: absolute;
+  top: 25rem;
+  left: 69rem;
+}
+.main-location-map {
+  position: relative;
+}
+
+.main-location-div {
+  position: absolute;
+  top: 0;
+  left: 15rem;
+}
+
+.main-wallpaper-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+  position: absolute;
+  top: 20rem;
+  right: 16rem;
+}
+
+/* -----------------------------------------------
+HTML Location map
+----------------------------------------------- */
+.queries-img-map,
+.queries-mini-map {
+  display: none;
+}
+.section-main-address {
+  background-color: #111111;
+  height: 57rem;
+  display: flex;
+  gap: 30rem;
+}
+.our-location-main {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 7rem;
+  line-height: 7rem;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-left: 12.5rem;
+  padding-top: 10.4rem;
+  max-width: 22.3rem;
+}
+.exact-location-div {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10.4rem;
+  justify-content: flex-start;
+}
+.king-street {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+  text-transform: uppercase;
+  color: #d5966c;
+  margin-bottom: 2.4rem;
+}
+.location-city,
+.location-zip,
+.location-country {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  color: #ffffff;
+  margin-bottom: 3.2rem;
+}
+.loc-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  color: #fff;
+  width: 54rem;
+}
+.footer-location {
+  display: flex;
+  flex-direction: column;
+  background: #d5966c;
+}
+.location-footer-div {
+  display: flex;
+  gap: 14rem;
+}
+.location-footer-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.8rek;
+  color: #151515;
+  width: 43rem;
+}
+.location-footer-icons {
+  display: flex;
+
+  gap: 2rem;
+}
+.location-icon-footer {
+  width: 2rem;
+  height: 2rem;
+}
+/* -----------------------------------------------
+section- art-gallery
+----------------------------------------------- */
+.section-art-gallery {
+  margin-bottom: 3rem;
+}
+.art-gallery-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.art-gallery-img {
+  width: 63.5rem;
+  height: 40rem;
+}
+.art-gallery-title {
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 6rem;
+  text-transform: uppercase;
+  width: 35rem;
+}
+.art-gallery-text {
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  width: 35rem;
+  color: #444;
+  margin-top: 3rem;
+}
+
+/* -----------------------------------------------
+section-gallery-grid-pictures">
+----------------------------------------------- */
+.section-gallery-grid-pictures {
+  margin-bottom: 18rem;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+
+.gallery-grid-main-pic {
+  width: 63.5rem;
+  height: 65rem;
+}
+
+.gallery-grid-two-pictures {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.gallery-grid-first-pic {
+  width: 44.5rem;
+  height: 31rem;
+}
+.gallery-grid-sec-pic {
+  width: 44.5rem;
+  height: 31rem;
+}
+
+.inspired-div {
+  position: absolute;
+  top: 4rem;
+  left: 6rem;
+}
+
+.gallery-grid-sec-pic-div {
+  position: relative;
+}
+
+.inspired {
+  color: #fff;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 6rem;
+  line-height: 6rem;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+.inspired-text {
+  color: #fff;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 3.2rem;
+  /* width: 3.5rem; */
+}
+
+/* -----------------------------------------------
+section-footer
+----------------------------------------------- */
+footer {
+  background-color: #151515;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-text {
+  color: #fff;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  width: 43rem;
+}
+
+.footer-image {
+  width: 15.9rem;
+  height: 5.8rem;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon-footer:hover {
+  background: #d5966c;
 }
